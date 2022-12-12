@@ -36,8 +36,3 @@ img{ width: 375px;
     background-color:hsl(0, 0%, 100%) ;
     width: 375px;
 }
-@media (max-width:450px){
-    section{
-        margin: 10% 10%;
-    }
-}
