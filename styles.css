@@ -13,6 +13,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height:600px;
     padding: 10%;
 }
 section{
@@ -22,17 +23,25 @@ section{
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     text-align: center;
-    
+    width:375px;
 }
 .image{
     background-color: white;
 }
-img{ width: 375px;
+img{ width:95%;
     border-radius: 20px;
     
 }
-
 .qrdata{
     background-color:hsl(0, 0%, 100%) ;
-    width: 375px;
+    width:300px;
+    margin: 0 auto 0 auto;
+}
+@media (max-width:500px) {
+ section{
+    width:250px;
+ }
+ .qrdata{
+    width:180px;
+ }
 }
